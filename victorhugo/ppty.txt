@@ -1,0 +1,17 @@
+InicioAlgoritmo
+    inteiro: hora, minuto, segundo;  
+
+
+	escreva("informe o valor de segundos");
+	leia("segundo");
+
+
+	H <- segundo div 3600; // divisao inteira 
+
+	M<-(segundo mod 3600)div 60;  // resto da primeira divisao e divisao inteira 
+
+	S<- segundo mod 60; // resto das duas divisoes
+
+	escrever("o resultado é H,":",M,":",S)
+
+FimAlgoritmo
